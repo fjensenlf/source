@@ -1,0 +1,68 @@
+for each(var user:User in kinect.users)
+				{
+					if (user.trackingID == 1) {
+						pos1[0] = user.trackingID;
+						pos1[1] = user.position.depth.x;
+						pos1[2] = user.position.depth.y;
+						pos1[3] = 1;
+						if (user.position.depth.x < 0){
+							pos1[3] = 0;//stop tracking
+                        
+							}else {
+								pos1[3] = 1;
+                            	
+							}
+						isBeingTracked(pos1);
+					} else if (user.trackingID == 2) {
+						pos2[0] = user.trackingID;
+						pos2[1] = user.position.depth.x;
+						pos2[2] = user.position.depth.y;
+						pos2[3] = 1;
+					
+						if (user.position.depth.x < 0){
+							pos2[3] = 0;//stop tracking
+                        
+							}else {
+								pos2[3] = 1;
+                            
+							}
+						isBeingTracked(pos2);
+					}else if (user.trackingID == 3) {
+						pos3[0] = user.trackingID;
+						pos3[1] = user.position.depth.x;
+						pos3[2] = user.position.depth.y;
+						pos3[3] = 1;
+					
+						if (user.position.depth.x < 0){
+							pos3[3] = 0;//stop tracking
+                        
+							}else {
+								pos4[3] = 1;
+                            
+							}
+						isBeingTracked(pos3);
+					}else if (user.trackingID == 1) {
+						pos4[0] = user.trackingID;
+						pos4[1] = user.position.depth.x;
+						pos4[2] = user.position.depth.y;
+						pos4[3] = 1;
+					
+						if (user.position.depth.x < 0){
+							pos4[3] = 0;//stop tracking
+                        
+							}else {
+								pos4[3] = 1;
+                            
+							}
+						isBeingTracked(pos4);
+					}
+					
+				
+					trace(tempID, trackedUser);
+					
+					
+				}
+				
+				
+				
+				}
