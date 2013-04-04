@@ -1,0 +1,8 @@
+TODO list
+ - Attractor
+ - reduzir tamanho das areas sensiveis da galeria (hotspotGal)
+ - Animar/dinamizar botões, transições de ecrãs/interfaces, imagens da galeria
+ - cursor com partículas
+ - Colocar o cursor no meio quando se navega de ecrã para ecrã/ ou ver uma alternativa
+ - fullscreen
+ - exportar app
