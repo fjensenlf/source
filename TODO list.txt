@@ -7,3 +7,7 @@ TODO list
  - exportar app
  - detectar interação (talvez através do Z, Z da hand menor que Z do torso)
  - remover hand quando ha interação
+ - pôr o código de calibrar a kinect
+ - mudar o menu e galeria de sitio
+ - ver como fazer o restart do computador e do programa
+ - colocar preços
