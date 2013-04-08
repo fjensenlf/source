@@ -2,12 +2,12 @@ TODO list
  - Attractor
  - Animar/dinamizar botões, transições de ecrãs/interfaces, imagens da galeria
  - cursor com partículas
- - Colocar o cursor no meio quando se navega de ecrã para ecrã/ ou ver uma alternativa
+ //- Colocar o cursor no meio quando se navega de ecrã para ecrã/ ou ver uma alternativa
  - fullscreen
  - exportar app
- - detectar interação (talvez através do Z, Z da hand menor que Z do torso)
- - remover hand quando ha interação
  - pôr o código de calibrar a kinect
  - mudar o menu e galeria de sitio
  - ver como fazer o restart do computador e do programa
  - colocar preços
+ - corrigir reset para funcionar com os loops do video
+ - corrigir centro do cursor
